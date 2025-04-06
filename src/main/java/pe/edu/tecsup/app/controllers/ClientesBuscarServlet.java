@@ -51,6 +51,11 @@ public class ClientesBuscarServlet extends HttpServlet {
 		Cliente value = clientes.get(codigo);
 
 		System.out.println(value);
+
+		
+		// Usando el SCOPE del request
+		request.setAttribute("cliente_encontrado", value);
+				
 		
 		request.getRequestDispatcher("respuesta.jsp")
 			   .forward(request, response);

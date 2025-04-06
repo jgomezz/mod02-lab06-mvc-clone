@@ -14,6 +14,8 @@
 							<option value ="X001" selected >X001</option>
 							<option value ="X002">X002</option>
 							<option value ="X003">X003</option>
+							<option value ="X004">X004</option>
+							
 					   </select>
 		
 		<input type="submit" value="Buscar"/>
